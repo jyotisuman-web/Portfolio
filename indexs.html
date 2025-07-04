@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Python Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script>
+        (function () {
+            emailjs.init("scsdwLeCa9Y1YfHX8UyQD"); // replace with your public key
+        })();
+    </script>
+</head>
+
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo text-xs text-shadow-2xs">
+                    <h1><b>Portfolio</b></h1>
+                </div>
+                <!-- <div class="menu-icon" id="menu-icon">&#9776;</div> -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Jyoti Suman</h1>
+                <p>Python Developer specializing in Web Development, Data Analysis, and Automation</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title"><b>About Me</b></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate Python developer with expertise in web development, data analysis, and
+                        automation.I enjoy building real-time, impactful applications—ranging from intelligent 
+                        dashboards to AI-powered systems for crowd monitoring and detection. </p>
+                    <br>
+                    <p>I focus on solving real-world problems through clean, efficient code and data-driven insights. I’m always eager to learn new
+                         technologies and collaborate on innovative projects.</p>
+                    <br>
+                </div>
+                <div class="about-image">
+                    <img src="img/j.jpg" alt="Python Developer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title"><b>Technical Skills</b></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>JavaScript</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <ul class="skill-list">
+                        <li>Django</li>
+                        <li>Bootstrap</li>
+                        <li>Flask</li>
+                        <li>Pandas & NumPy</li>
+                        <li>Matplotlib & Seaborn</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul class="skill-list">
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Other</h3>
+                    <ul class="skill-list">
+                        <li>Lovable.ai</li>
+                        <li>Manus.ai</li>
+                        <li>Replit</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title"><b>Featured Projects</b></h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-image">Crowd Management</div>
+                    <div class="project-details">
+                        <h3>Crowd Management</h3>
+                        <p></p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Yolo</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">DeepSort</span>
+                        </div>
+                        <p><strong>Key Achievements:</strong></p>
+                        <ul>
+                            <li>Developed a real-time crowd management system using YOLO, optical flow, and risk scoring
+                                to monitor and analyze crowd behavior.</li>
+                            <li>Integrated anomaly detection, density estimation, and live heatmaps to predict and
+                                prevent stampede risks effectively.</li>
+                                <li>Grade: A++</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/jyotisuman-web/Stampede-detection">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">Data Dashboard</div>
+                    <div class="project-details">
+                        <h3>Data Analysis</h3>
+                        <p>Analysis raw data and bringing out insights.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">Matplotlib</span>
+                            <span class="tech-tag">Streamlit</span>
+                        </div>
+                        <p><strong>Key Achievements:</strong></p>
+                        <ul>
+                            <li>Performed sentiment analysis on LinkedIn reviews using NLP to identify overall user
+                                sentiment trends.</li>
+                            <li>Analyzed and visualized review data to extract insights on user satisfaction and
+                                engagement patterns</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/jyotisuman-web/Data-Analysis">GitHub repo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">Automation Tool</div>
+                    <div class="project-details">
+                        <h3>Web Scraping Automation</h3>
+                        <p>An automation that scrapes web data and generates custom reports, running on schedule in
+                            the cloud.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <!--<span class="tech-tag">Selenium</span>-->
+                            <span class="tech-tag">BeautifulSoup</span>
+                            <!--span class="tech-tag">AWS Lambda</span-->
+                        </div>
+                        <p><strong>Key Achievements:</strong></p>
+                        <ul>
+                            <li>Automating work which takes hours.</li>
+                            <!--li>Implemented error recovery mechanisms</li-->
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/jyotisuman-web/LearnFusion_web_Scraping">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+                    <div class="project-card">
+                        <div class="project-image" >Crowd
+                            Management</div>
+                        <div class="project-details">
+                            <h3>Meesho Clone</h3>
+                            <p></p>
+                            <div class="tech-stack">
+                                <span class="tech-tag">Html</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag"></span>
+                            </div>
+                            <p><strong>Key Achievements:</strong></p>
+                            <ul>
+                                <li>Developed a real-time crowd management system using YOLO, optical flow, and risk
+                                    scoring to monitor and analyze crowd behavior.</li>
+                                <li>Integrated anomaly detection, density estimation, and live heatmaps to predict and
+                                    prevent stampede risks effectively.</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/jyotisuman-web/aicte-project">GitHub Repo</a>
+                                <a href="https://jyotisuman-web.github.io/aicte-project/">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" style="color: white;"><b>Get In Touch</b></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out for collaboration opportunities, job inquiries, or just to say hello!</p>
+                    <p>Email: <a href="mailto:jskysuman@gmail.com">jskysuman@gmail.com</a></p>
+                    <p>Location: Kota, Rajasthan, India</p>
+                    <div class="social-links">
+                        <a href="https://github.com/jyotisuman-web" class="social-link">GH</a>
+                        <a href="https://www.linkedin.com/in/jyoti-suman-762693272/" class="social-link">LI</a>
+                        <a href="https://medium.com/@jskysuman" class="social-link">M</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Your Message...." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>THANK YOU</p>
+        </div>
+    </footer>
+
+    <script src="script.js" />
+</body>
+
+</html>
